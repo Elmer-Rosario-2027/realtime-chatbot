@@ -1,0 +1,74 @@
+.contact {
+    position: relative;
+    padding: 5px 0 5px 0;
+    font-size: 0.9em;
+    cursor: pointer;
+    border-bottom: solid 0.1rem rgba(0,0,0,0.06);
+}
+
+p {
+    margin:0;
+}
+
+li{
+  text-decoration: none;
+}
+
+  .contact:hover {
+    background: #ececec;
+  }
+  .contact.active {
+    background: #32465a;
+    border-right: 5px solid #435f7a;
+  }
+  
+  .contact .wrap {
+    width: 85%;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+  }
+  .contact .wrap span {
+    position: absolute;
+    left: 0;
+    margin: -2px 0 0 -2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #2c3e50;
+    background: #95a5a6;
+  }
+  .contact .wrap .meta img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    background-color: rgb(179 179 179);
+  }
+  .contact .wrap .meta {
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .wrap .meta .name {
+    margin-left: 0.2rem;
+    font-size: 1.2rem;
+    font-family: nunito;
+  }
+
+
+  #add_btn{
+    width: 80px;
+    height: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#accepter_btn{
+
+  margin: 0 4px 0 0;
+}
